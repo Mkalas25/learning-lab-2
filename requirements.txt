@@ -1,0 +1,11 @@
+streamlit
+streamlit-lottie
+pandas
+datetime
+PyPDF2
+langchain
+langchain-google-genai
+python-dotenv
+langchain-community
+faiss-cpu
+chromadb
