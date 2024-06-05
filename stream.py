@@ -60,7 +60,7 @@ def show_home_page():
     st.title("courses 📚")
     st.write("Please select a course:")
 
-    if st.button("Course 1-Welding Guidelines"):
+    if st.button("Course 1-GD&T-Geometric dimensioning and tolerancing"):
         st.session_state.page = "course_1"
         st.session_state.history.append("home")
         st.rerun()      
@@ -179,11 +179,12 @@ def chatbot():
 # Functions to show course pages
 def show_course_1_page():
     st.title("Welcome to Course 1")
-    st.title("Welding Guidelines")
+    st.title("GD&T-Geometric dimensioning and tolerancing")
     scenes = [
-    ("""Weld should shown in CAD with 5mm thick quarter cylinder. Effective length
-should be shown in blue color and minimum 5mm start in red color and minimum
-3mm stop to be in orange color.""", "rule 1.png"),
+    ("""Geometric dimensioning and tolerancing (GD&T) is a system for defining and communicating engineering tolerances via a symbolic language on 
+    engineering drawings and computer-generated 3D models that describes a physical object's nominal geometry and the permissible variation thereof. 
+    GD&T is used to define the nominal (theoretically perfect) geometry of parts and assemblies, the allowable variation in size, form, orientation,
+    and location of individual features, and how features may vary in relation to one another such that a component is considered satisfactory for its intended use..""", "rule 1.png"),
     ("""Need minimum 18mm for structure weld including 5mm start and 3mm stop.
 If its less then 18mm total weld then it will consider as a process weld or tac weld.""", "rule2.png"),
     ("""35mm Max weld length for a single weld.""", "rule3.png"),
