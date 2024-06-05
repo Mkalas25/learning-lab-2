@@ -188,7 +188,7 @@ def show_course_1_page():
     ("""GD&T Flatness is very straight forward. It is a common symbol that references how flat a surface is regardless of any other datums or features. 
     It comes in useful if a feature is to be defined on a drawing that needs to be uniformly flat without tightening any other dimensions on the drawing. 
     The flatness tolerance references two parallel planes (parallel to the surface that it is called out on) that define a zone where the entire reference surface must lie. 
-    Flatness tolerance is always less than the dimensional tolerance associated with it.""", "rule2.png"),
+    Flatness tolerance is always less than the dimensional tolerance associated with it.""", ["flat1.png","flat2.png","flat3"]),
     ("""Description:
 Parallelism is a fairly common symbol that describes a parallel orientation of one referenced feature to a datum surface or line. 
 It can reference a 2D line referenced to another element, but more commonly it relates the orientation of one surface plane parallel to another datum plane in a 3-Dimensional tolerance zone.
