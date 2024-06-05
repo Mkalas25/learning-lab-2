@@ -181,6 +181,7 @@ def show_course_1_page():
     st.title("Welcome to Course 1")
     st.title("GD&T-Geometric dimensioning and tolerancing")
     scenes = [
+        st.title("Defination")
     ("""Geometric dimensioning and tolerancing (GD&T) is a system for defining and communicating engineering tolerances via a symbolic language on 
     engineering drawings and computer-generated 3D models that describes a physical object's nominal geometry and the permissible variation thereof. 
     GD&T is used to define the nominal (theoretically perfect) geometry of parts and assemblies, the allowable variation in size, form, orientation,
