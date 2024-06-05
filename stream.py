@@ -195,7 +195,9 @@ It can reference a 2D line referenced to another element, but more commonly it r
 The tolerance indirectly controls the 0° angle between the parts by controlling where the surface can lie based on the datum. See the tolerance zone below for more details.
 Note: Parallelism does not control the angle of the referenced feature, but only creates an envelope in which the feature must lie.
 It is important to determine what the reference feature is (surface or axis) and then what is acting as the datum (surface or axis) to determine how the parallelism is to be controlled.""", "pall.png"),
-    ("""6 mm minimum gap between two consecutive inline welds.""","rule4.png"),
+    ("""True Position, or just Position as the ASME Y14.5 standard calls it, is defined as the total permissible variation that a feature can have from its “true” position. The “True Position” is the exact coordinate,
+    or location defined by basic dimensions or other means that represents the nominal value. In other words, the Geometric Dimensioning and Tolerancing “Position” tolerance is how far your feature’s location can vary 
+    from its “True Position”.""",["loc.png","pos.png"]),
     ("""Rule 5 case 1- Non-Clam shell design: Maximum allowable gap at the weld joint by tolerance analysis:
    For > 1.4mm thick parts:
      ≤0.8mm gap by tolerance analysis.
