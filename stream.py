@@ -200,7 +200,7 @@ It is important to determine what the reference feature is (surface or axis) and
     from its “True Position”.""",["loc.png","pos.png"]),
     ("""Runout is how much one given reference feature or features vary with respect to another datum when the part is rotated 360° around the datum axis. It is essentially a control of a circular feature, 
     and how much variation it has with the rotational axis.
-    Runout can be called out on any feature that is rotated about an axis. It is essentially how much “wobble” occurs in the one part feature when referenced to another.""run1.1.png","run2.png"]),
+    Runout can be called out on any feature that is rotated about an axis. It is essentially how much “wobble” occurs in the one part feature when referenced to another.""",["run1.1.png","run2.png"]),
 ("""Rule 5 case 2- Clam shell design: 1.Joint design with gap is required for clam shell joints for ease of assembly.
 Min 0.1mm gap / per side to be protected for the joint for ease of assembly. 
 
