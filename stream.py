@@ -184,7 +184,7 @@ def show_course_1_page():
     ("""Geometric dimensioning and tolerancing (GD&T) is a system for defining and communicating engineering tolerances via a symbolic language on 
     engineering drawings and computer-generated 3D models that describes a physical object's nominal geometry and the permissible variation thereof. 
     GD&T is used to define the nominal (theoretically perfect) geometry of parts and assemblies, the allowable variation in size, form, orientation,
-    and location of individual features, and how features may vary in relation to one another such that a component is considered satisfactory for its intended use..""", "rule 1.png"),
+    and location of individual features, and how features may vary in relation to one another such that a component is considered satisfactory for its intended use..""", "rule1.png"),
     ("""Need minimum 18mm for structure weld including 5mm start and 3mm stop.
 If its less then 18mm total weld then it will consider as a process weld or tac weld.""", "rule2.png"),
     ("""35mm Max weld length for a single weld.""", "rule3.png"),
@@ -242,7 +242,7 @@ Joint to be design with touch condition.
 Max 0.25 trimline / surface profile tolerance on each part or max total 0.5 mm (both parts) trimline / surface profile tolerance.""","rule 5 case 4.png")]
 
     for index, (text, image) in enumerate(scenes, start=1):
-        with st.expander(f"Rule {index}",expanded=True):
+       # with st.expander(f"Rule {index}",expanded=True):
             st.markdown(text)
             st.image(image)
 
