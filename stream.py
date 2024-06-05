@@ -188,15 +188,13 @@ def show_course_1_page():
     ("""GD&T Flatness is very straight forward. It is a common symbol that references how flat a surface is regardless of any other datums or features. 
     It comes in useful if a feature is to be defined on a drawing that needs to be uniformly flat without tightening any other dimensions on the drawing. 
     The flatness tolerance references two parallel planes (parallel to the surface that it is called out on) that define a zone where the entire reference surface must lie. 
-    Flatness tolerance is always less than the dimensional tolerance associated with it.""", ["flat1.png",       "flat2.png"]),
+    Flatness tolerance is always less than the dimensional tolerance associated with it.""", ["flat1.png","flat2.png"]),
     ("""Description:
 Parallelism is a fairly common symbol that describes a parallel orientation of one referenced feature to a datum surface or line. 
 It can reference a 2D line referenced to another element, but more commonly it relates the orientation of one surface plane parallel to another datum plane in a 3-Dimensional tolerance zone.
 The tolerance indirectly controls the 0° angle between the parts by controlling where the surface can lie based on the datum. See the tolerance zone below for more details.
-
 Note: Parallelism does not control the angle of the referenced feature, but only creates an envelope in which the feature must lie.
-
-It is important to determine what the reference feature is (surface or axis) and then what is acting as the datum (surface or axis) to determine how the parallelism is to be controlled.""", "rule3.png"),
+It is important to determine what the reference feature is (surface or axis) and then what is acting as the datum (surface or axis) to determine how the parallelism is to be controlled.""", "pall.png"),
     ("""6 mm minimum gap between two consecutive inline welds.""","rule4.png"),
     ("""Rule 5 case 1- Non-Clam shell design: Maximum allowable gap at the weld joint by tolerance analysis:
    For > 1.4mm thick parts:
