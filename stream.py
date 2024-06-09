@@ -209,8 +209,8 @@ It is important to determine what the reference feature is (surface or axis) and
             st.image(image)
 
     st.title("Videos")
-    st.video("vid1.mp4")
-    st.video("vid2.mp4")
+    st.video("Understanding GD&T.mp4")
+   
 
     # Define custom CSS for the button
     button_css = """
