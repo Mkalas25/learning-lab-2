@@ -57,7 +57,7 @@ def show_home_page():
     username = st.session_state.get('username', 'Guest')
     st.title(f"Hi {username}")
     st.write(f"Welcome, {username}! Welcome to Camaco Learning Lab")
-    st.title("courses 📚")
+    st.title("Courses 📚")
     st.write("Please select a course:")
 
     if st.button("Course 1-GD&T-Geometric dimensioning and tolerancing"):
