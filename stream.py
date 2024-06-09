@@ -267,7 +267,7 @@ def show_course_2_page():
 def test():
     # Define the questions and options
     questions = [
-        "What is your favorite color?",
+        "What is GD&T fullform ?",
         "What is your favorite animal?",
         "What is your favorite food?",
         "What is your favorite hobby?",
