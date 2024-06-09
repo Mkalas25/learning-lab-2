@@ -201,47 +201,7 @@ It is important to determine what the reference feature is (surface or axis) and
     ("""Runout is how much one given reference feature or features vary with respect to another datum when the part is rotated 360° around the datum axis. It is essentially a control of a circular feature, 
     and how much variation it has with the rotational axis.
     Runout can be called out on any feature that is rotated about an axis. It is essentially how much “wobble” occurs in the one part feature when referenced to another.""",["run1.png","run2.png"]),
-("""Rule 5 case 2- Clam shell design: 1.Joint design with gap is required for clam shell joints for ease of assembly.
-Min 0.1mm gap / per side to be protected for the joint for ease of assembly. 
 
-For > 1.4mm thick parts:
-0.45 mm Nominal Gap per side.
-Max 0.35 trimline / surface profile tolerance on each part or max total 0.7 mm (both parts) trimline / surface profile tolerance.
-For < 1.4mm thick parts:
-0.3 mm Nominal Gap per side.
-Max 0.2 trimline / surface profile tolerance on each part or max total 0.4 mm (both parts) trimline / surface profile tolerance.
-2. When ever possible Design with 2 L bracket.
-
-For > 1.4mm thick parts:
-Joint to be designed with touch condition.
-Max 0.4 trimline / surface profile tolerance on each part or max total 0.8 mm (both parts) trimline / surface profile tolerance.
-
-For < 1.4mm thick parts:
-Joint to be design with touch condition.
-Max 0.25 trimline / surface profile tolerance on each part or max total 0.5 mm (both parts) trimline / surface profile tolerance.""",["rule 5 case 2.1.png","Rule 5_2.2.png"]),
-("""Rule 5 case 3- Slip Joint design: If Max allowed weld gap can not be achieved by part design, then slip assembly joints to be designed to allow part motion during assembly process. 
-Parts to be designed with 2 locating slots. Slots direction to be inline with the movement of the part.
-
-For > 1.4mm thick parts:
-Joint to be designed with touch condition.
-Max 0.4 trimline / surface profile tolerance on each part or max total 0.8 mm (both parts) trimline / surface profile tolerance.
-
-For < 1.4mm thick parts:
-Joint to be design with touch condition.
-Max 0.25 trimline / surface profile tolerance on each part or max total 0.5 mm (both parts) trimline / surface profile tolerance.""","rule 5 case 3.png"),
-("""Rule 5 case 4- For Large parts: For parts where it is difficult to control the entire surface / trimline profile to required tolerance mentioned above,
-For surface add local emboss / coning with profile tolerance mentioned above at the weld joint.
-For trim edge, add local standoff with profile tolerance mentioned above at the weld joint.
-
-For > 1.4mm thick parts:
-≤0.8mm gap by tolerance analysis.
-Joint to be designed with touch condition.
-Max 0.4 trimline / surface profile tolerance on each part or max total 0.8 mm (both parts) trimline / surface profile tolerance.
-
-For < 1.4mm thick parts:
-≤0.5mm gap by tolerance analysis.
-Joint to be design with touch condition.
-Max 0.25 trimline / surface profile tolerance on each part or max total 0.5 mm (both parts) trimline / surface profile tolerance.""","rule 5 case 4.png")]
 
     for index, (text, image) in enumerate(scenes, start=1):
         with st.expander(f" {index}",expanded=True):
