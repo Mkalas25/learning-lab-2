@@ -105,7 +105,7 @@ def chatbot():
     os.getenv("GOOGLE_API_KEY")
 
     def get_pdf_text():
-        path = "weld.pdf"
+        path = "Fundamentals_of_GDandT.pdf"
         loader = PyPDFLoader(path)
         text = loader.load()
         text="\n".join([page.page_content for page in text])
