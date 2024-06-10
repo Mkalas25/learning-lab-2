@@ -208,7 +208,7 @@ It is important to determine what the reference feature is (surface or axis) and
             st.markdown(text)
             st.image(image)
 
-    st.title("Videos")
+    st.title("Video")
     st.video("Understanding GD&T.mp4")
    
 
