@@ -268,18 +268,18 @@ def test():
     # Define the questions and options
     questions = [
         "What is GD&T fullform ?",
-        "What is your favorite animal?",
-        "What is your favorite food?",
-        "What is your favorite hobby?",
-        "What is your favorite season?"
+        "which charachteristics not belong to location?",
+        "which charachteristics not belong to orientation?",
+        "Flatness tolerance is always less than the ___________ associated with it.?",
+        "Runout can be called out on any feature that is rotated about an ________?"
     ]
 
     options = [
-        ["Red", "Blue", "Green", "Yellow"],
-        ["Cat", "Dog", "Bird", "Fish"],
-        ["Pizza", "Burger", "Pasta", "Salad"],
-        ["Reading", "Traveling", "Gaming", "Cooking"],
-        ["Spring", "Summer", "Fall", "Winter"]
+        ["Geometric dattums and tolerancing", "Geometric dimensioning and tolerancing", "Geometric dimensioning and tooling", "Get dimension and tolerancing"],
+        ["Position", "symetry", "concentricity", "profile"],
+        ["Parallism", "Perpendiculirity", "position", "Angularity"],
+        ["tolerance", "dimensional tolerance", "dimenstion", "length"],
+        ["shape", "Axis", "size", "Hole"]
     ]
 
     # Streamlit app title
@@ -313,7 +313,7 @@ def test():
                 # Save to CSV
                 csv_file = "responses.csv"
 
-                right_answers=["Red","Dog","Burger","Reading","Winter"]
+                right_answers=["Geometric dimensioning and tolerancing","profile","position","dimensional tolerance","Axis"]
                 answer_by_user=df.loc[0].to_list()[0:5]
                 right_answer_count=0
                 if right_answers[0] ==answer_by_user[0]:
